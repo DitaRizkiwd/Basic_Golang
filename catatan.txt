@@ -1,0 +1,63 @@
+Golang 27 02 2027
+
+- golang dijalankan secara keseluruhan secara langsung - code - binary - run(compiler)
+- dalam golang ada 2 error = error compile kesalahan penulisan, error running kesalahan logika,
+- type strictness
+- bisa menjalankan beberapa perintah(go- rutin) sekaligus (concurrency)
+- error handling secara explisit
+- ketika ada variabel yang tidak digunakan, akan otomatis dihapus
+
+buat project :go mod init nama-project
+go run : buat run
+go build : buat executable source code
+go get : ambil library dari luar
+
+
+src : source code kita
+bin :executable, output dari project
+pkg :package dari luar atau package sendiri
+
+int : dari -
+uint : mulai dari 0
+rune : int32
+byte : uint8
+complex : bilangan imajiner + angka nyata
+
+deklarasi variabel 
+var = bisa berubah
+const = tidak bisa berubah, haris didefinisikan diawal
+type manifest : harus didefinisikan secara langsung variabel namaVariabel tipe data
+typr interface : dapat didefinisikan secara langsung, namaVariabel := value 
+
+perulangan di go hanya for tapi formatnya bisa ke for, while, foreach
+
+
+basic Golang
+Exported & Unexported
+Unexported adalah fungsi dengan awalan lower case , hanya bisa dipanggil oleh package yang sama
+exported diawali dengan huruf besar, bisa diakses oleh fungsi lain
+
+defer & exit
+defer satu blok code selesai di eksekusi, selalu dijalankan belakangan
+exit untuk memberhentikan proram secara paksa
+
+pointer
+*asteris untuk memanggil value
+& untuk mengambil alamat memori
+
+struct & method
+struct seperti kelas dan didefinisikan dengan object
+method adalah fungsi yang menyambung dengan struct
+
+
+
+gin gonic
+
+installation : https://gin-gonic.com/docs/quickstart/
+
+
+
+
+
+
+ 
